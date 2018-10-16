@@ -41,8 +41,8 @@ namespace BvmWebsite.admin
         protected void Button1_Click(object sender, EventArgs e)
         {
             string dpt_id = Request.QueryString["branch_id"].ToString();
-            //string ckInput = Request.Form["editor1"]; // save this to the db
-            string des = Server.HtmlEncode(Form["editor1"]);
+            string ckInput = Request.Form["editor1"]; // save this to the db
+            string des = Server.HtmlEncode(ckInput);
             string query = "update [dbo].[dpt_index_page] set description='" + des + "' where branch_id=" + dpt_id;
 
             conn.Open();

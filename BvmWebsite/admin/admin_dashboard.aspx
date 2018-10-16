@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin_dashboard.aspx.cs" Inherits="BvmWebsite.admin.admin_dashboard" ValidateRequest="false"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin_dashboard.aspx.cs" Inherits="BvmWebsite.admin.admin_dashboard" ValidateRequest="false" %>
+
 <%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>
 <!DOCTYPE html>
 
@@ -10,7 +11,7 @@
     <script src="ckeditor/ckeditor.js"></script>
 </head>
 
-    <script>
+<script>
     var roxyFileman = '/admin/fileman/index.html?integration=ckeditor';
     $(function () {
         CKEDITOR.replace('editor1', {
@@ -20,9 +21,9 @@
         });
     });
 </script>
-    <script type="text/javascript">
-            var editor = CKEDITOR.replace( 'editor1' );
-    </script>
+<script type="text/javascript">
+    var editor = CKEDITOR.replace('editor1');
+</script>
 <body>
     <form id="form1" runat="server">
         <div>
