@@ -2,7 +2,7 @@
         <header class="header">
             <div class="header-main container">
                 <h1 class="logo col-md-7 col-sm-7">
-                    <a href="index.aspx"><img id="logo" width="500" height="120" src="assets/images/bvm-logo-2.png" alt="BVM"></a>
+                    <a href="index.aspx"><img id="logo" width="400" height="96" src="assets/images/bvm-logo-2.png" alt="BVM"></a>
                 </h1>
                 <!--//logo-->
                 <div class="info col-md-5 col-sm-5">
@@ -35,7 +35,7 @@
                 <!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a href="index.aspx">Home</a></li>
+                        <li class="nav-item"><a href="index.aspx">Home</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Our BVM <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -225,7 +225,7 @@
         <header class="header small-header">
             <div class="header-main container">
                 <h1 class="logo col-md-4 col-sm-4">
-                    <a href="index.aspx"><img id="logo" width="100%" height="20%" src="assets/images/bvm-logo-2.png" alt="Logo"></a>
+                    <a href="index.aspx"><img id="logo" width="80%" height="20%" src="assets/images/bvm-logo-2.png" alt="Logo"></a>
                 </h1>
                 <!--//logo-->
                 <div class="info col-md-8 col-sm-8">

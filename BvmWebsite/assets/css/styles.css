@@ -1,14 +1,7 @@
-/*   
- * Template Name: College Green - Responsive Website Template for Education & Training
- * Version: 1.6
- * Author: Xiaoying Riley at 3rd Wave Media
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-*/
 
 /* ======= Base ======= */
 @font-face{ font-family: ProductSans; src: url("../fonts/ProductSans/ProductSans-Regular.ttf"); }
-@font-face{ font-family: ProductSans; src: url("../fonts/ProductSans/ProductSans-Regular.ttf"); }
+
 html,
 body {
     height: 100%;
@@ -24,7 +17,6 @@ body {
     margin-bottom: -344px;
     /* equal to footer height */
 }
-
 .wrapper:after {
     content: "";
     display: block;
@@ -2313,12 +2305,50 @@ h1.text-highlight {
     box-shadow: 0 4px 8px 0 rgba(0, 69, 121, 0.2), 0 6px 20px 0 rgba(0, 69, 121, 0.19);
 }
 
+@media (max-width: 767px) {
+    .faculty {
+        margin: 10px 50px;
+    }
+}
 /* ==== Full_Faculty_Info==== */
 
+.full_faculty {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-wrap: break-word;
+    margin: 10px;
+    font-family: ProductSans;
+    font-size: 14px;
+    transition: transform .2s;
+    color: #000;
+    line-height: 3rem;
+    padding: 30px;
+    min-width: 250px;
+}
 
+.full_faculty img{
+    display: inline;
+    border: 1px solid #a09b9b;
+    padding:8px;
+}
 
+.faculty_intro {
+    display: inline;
+    padding: 20px;
+    color: #666;
+}
+.faculty_details{
+    font-weight:500;
+    font-size:16px;
+}
+.table {
+    text-align: center;
+}
 
-
+@media(max-width: 767px) {
+    .full_faculty{
+        margin: 10px 50px;
+    }
+}
 
 
 
@@ -2612,6 +2642,7 @@ h1.text-highlight {
     }
     body {
         font-size: 13px;
+        margin-top:0px;
     }
     .wrapper {
         min-height: 100%;

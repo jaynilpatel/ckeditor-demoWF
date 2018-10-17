@@ -901,7 +901,8 @@
     <Content Include="boilerplate\bvmfooter.aspx" />
     <Content Include="boilerplate\bvmheader.aspx" />
     <Content Include="dashboard.aspx" />
-    <Content Include="faculty-info.aspx" />
+    <Content Include="faculty_info.aspx" />
+    <Content Include="full_faculty_info.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -920,12 +921,19 @@
     <Compile Include="dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="faculty-info.aspx.cs">
-      <DependentUpon>faculty-info.aspx</DependentUpon>
+    <Compile Include="faculty_info.aspx.cs">
+      <DependentUpon>faculty_info.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="faculty-info.aspx.designer.cs">
-      <DependentUpon>faculty-info.aspx</DependentUpon>
+    <Compile Include="faculty_info.aspx.designer.cs">
+      <DependentUpon>faculty_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="full_faculty_info.aspx.cs">
+      <DependentUpon>full_faculty_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="full_faculty_info.aspx.designer.cs">
+      <DependentUpon>full_faculty_info.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

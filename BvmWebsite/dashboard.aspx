@@ -31,6 +31,10 @@
             .intro span{
                 font-size: 14px;
             }
+            table{
+                width:80% !important;
+                height:auto;
+            }
         }
     </style>
 </head>

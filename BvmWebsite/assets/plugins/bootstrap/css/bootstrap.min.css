@@ -1978,8 +1978,8 @@ pre code {
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto
 }
@@ -1994,11 +1994,17 @@ pre code {
 @media (min-width:992px) {
     .container {
         /*width: 970px; */
-        width: 95%;
+        width: 88%;
     }
 }
 
 @media (min-width:1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width:1800px) {
     .container {
         width: 95%;
     }
