@@ -34,15 +34,15 @@
         <p>
             <!--#include file="boilerplate/bvmheader.aspx"-->
         </p>
-      <!-- ****//HEADER******-->
+        <!--//footer-->
 
 
         <!-- ******CONTENT****** -->
         <div class="content container">
-            <div class="row cols-wrapper">
-                <div id="promo-slider" class="slider flexslider">
-                    <ul class="slides">
-                        <!--<li>
+
+            <div id="promo-slider" class="slider flexslider">
+                <ul class="slides">
+                    <!--<li>
                         <div style="overflow: hidden; display: flex; ">
                             <img src="assets/images/slides/3 STTP.jpg" style="width:50%; height:auto; max-height: 450px;" alt="" />
                             
@@ -55,87 +55,85 @@
                             <span class="secondary clearfix">Choose from over 100 online and offline courses</span>
                         </p>
                     </li>-->
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/1it 2016.jpg" alt="" />
-                            <p class="flex-caption">
-                                <!--<span class="main">Come to our Open Days</span> -->
-                                <br />
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/1IT i.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/11it.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/13it.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/1it 2016.jpg" alt="" />
+                        <p class="flex-caption">
+                            <!--<span class="main">Come to our Open Days</span> -->
+                            <br />
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/1IT i.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/11it.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/13it.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
 
-                            </p>
-                        </li>
-                    </ul>
+                        </p>
+                    </li>
+
                     <!--//slides-->
+            </div>
+            <!--//flexslider-->
+
+            <div class="row cols-wrapper">
+                <div class="col-md-4">
+                    <h1 class="section-heading text-highlight"><span class="line">Information Technology</span></h1>
+                    <ul class="quick-links">
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Vision & Mission</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>PEO's & PSO's</li>
+                            </div>
+                        </a>
+                        <a href="faculty_info.aspx">
+                            <div class="list-blue">
+                                <li>Faculty</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Laboratories</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Department News</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Department Events</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Study Material</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Time Table</li>
+                            </div>
+                        </a>
+                    </ul>
+                    <br />
                 </div>
-                <!--//flexslider-->
-
-                <!-- Row 1 -->
-                <div class="row cols-wrapper">
-                    <div class="col-md-3">
-                        <h1 class="section-heading text-highlight"><span class="line">Information Technology</span></h1>
-
-                        <a href="#">
-                            <div class="list-blue">
-                                Vision & Mission
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                PEO's & PSO's
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Faculty
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Laboratories
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Department News
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Department Events
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Study Material
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Time Table
-                            </div>
-                        </a>
-                        <br /><br />
-                        
-                    </div>
-                    <div class="col-md-1"></div>
                     <!-- Profile div -->
                     <div class="col-md-8 ">
                         <h1 class="section-heading text-highlight"><span class="line">Faculties</span></h1>

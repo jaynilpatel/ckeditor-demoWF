@@ -33,15 +33,15 @@
         <p>
             <!--#include file="boilerplate/bvmheader.aspx"-->
         </p>
-        <!-- ****//HEADER******-->
+        <!--//footer-->
 
 
         <!-- ******CONTENT****** -->
         <div class="content container">
-            <div class="row cols-wrapper">
-                <div id="promo-slider" class="slider flexslider">
-                    <ul class="slides">
-                        <!--<li>
+
+            <div id="promo-slider" class="slider flexslider">
+                <ul class="slides">
+                    <!--<li>
                         <div style="overflow: hidden; display: flex; ">
                             <img src="assets/images/slides/3 STTP.jpg" style="width:50%; height:auto; max-height: 450px;" alt="" />
                             
@@ -54,90 +54,87 @@
                             <span class="secondary clearfix">Choose from over 100 online and offline courses</span>
                         </p>
                     </li>-->
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/1it 2016.jpg" alt="" />
-                            <p class="flex-caption">
-                                <!--<span class="main">Come to our Open Days</span> -->
-                                <br />
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/1IT i.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/11it.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
-                            </p>
-                        </li>
-                        <li>
-                            <img src="assets/images/deparment/informationtechnology/13it.jpg" alt="" />
-                            <p class="flex-caption">
-                                <span class="main">Information Technology</span>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/1it 2016.jpg" alt="" />
+                        <p class="flex-caption">
+                            <!--<span class="main">Come to our Open Days</span> -->
+                            <br />
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/1IT i.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/11it.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="assets/images/deparment/informationtechnology/13it.jpg" alt="" />
+                        <p class="flex-caption">
+                            <span class="main">Information Technology</span>
 
-                            </p>
-                        </li>
-                    </ul>
+                        </p>
+                    </li>
+
                     <!--//slides-->
+            </div>
+            <!--//flexslider-->
+
+            <div class="row cols-wrapper">
+                <div class="col-md-4">
+                    <h1 class="section-heading text-highlight"><span class="line">Information Technology</span></h1>
+                    <ul class="quick-links">
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Vision & Mission</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>PEO's & PSO's</li>
+                            </div>
+                        </a>
+                        <a href="faculty_info.aspx">
+                            <div class="list-blue">
+                                <li>Faculty</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Laboratories</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Department News</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Department Events</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Study Material</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Time Table</li>
+                            </div>
+                        </a>
+                    </ul>
+                    <br />
                 </div>
-                <!--//flexslider-->
-
-                <!-- Row 1 -->
-                <div class="row cols-wrapper">
-                    <div class="col-md-3">
-                        <h1 class="section-heading text-highlight"><span class="line">Information Technology</span></h1>
-
-                        <a href="#">
-                            <div class="list-blue">
-                                Vision & Mission
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                PEO's & PSO's
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Faculty
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Laboratories
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Department News
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Department Events
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-blue">
-                                Study Material
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="list-black">
-                                Time Table
-                            </div>
-                        </a>
-                        <br />
-                    </div>
-
-                    <div class="col-md-1"></div>
-
                     <!-- Profile div -->
-                    <div class="col-md-8 full_faculty">
+                    <div class="col-md-7 full_faculty">
                         <!--
                         <center>
                                 <img src="assets/images/team/team-1.jpg">
@@ -150,26 +147,26 @@
                                 </span>
                         </center> -->
                         <div class="row">
-                            <div class="col-md-3"></div>
-                            <div class="col-md-3">
-                                <img src="assets/images/team/team-1.jpg"></div>
                             <div class="col-md-4">
+                                <img src="assets/images/team/team-1.jpg"/>
+                            </div>
+                            <div class="col-md-8">
                                 <div>
                                     <br />
                                     <h2>Dr. Herbert Harrsion</h2>
                                     <h4>Head Of Department</h4>
                                     <h4>Information Technology</h4>
+                                    <h5>Email: hharrison@bvmengineering.ac.in</h5>
                                     <h6>Date of Joining: 01/07/2006</h6>
                                 </div>
                             </div>
-                            <div class="col-md-1"></div>
                         </div>
                         <br />
                         <div class="row" style="padding:0px 30px">
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Qualification:</h4>
+                                <h4><u>Qualification</u>:</h4>
                             </div>
                             <div class="col-md-3">
                                <h5>UG: Information Technology</h5>
@@ -186,7 +183,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Total experience:</h4>
+                                <h4><u>Total experience</u>:</h4>
                             </div>
                             <div class="col-md-3">
                                <h5>Teaching : 12 years 04 Months</h5>
@@ -203,7 +200,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Paper published:</h4>
+                                <h4><u>Paper published</u>:</h4>
                             </div>
                             <div class="col-md-3">
                                <h5>National :</h5>
@@ -217,7 +214,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Paper Presented:</h4>
+                                <h4><u>Paper Presented</u>:</h4>
                             </div>
                             <div class="col-md-3">
                                <h5>National : 03</h5>
@@ -231,7 +228,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>PhD Guide:</h4>
+                                <h4><u>PhD Guide:</u></h4>
                             </div>
                             <div class="col-md-3">
                                <h5>Field : NA</h5>
@@ -245,7 +242,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>PhDs/Project Guided:</h4>
+                                <h4><u>PhDs/Project Guided</u>:</h4>
                             </div>
                             <div class="col-md-3">
                                <h5>	PhDs : NA</h5>
@@ -259,7 +256,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Books published/ IPRs/ Patents:</h4>
+                                <h4><u>Books published/ IPRs/ Patents</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>NA</h5>
@@ -270,7 +267,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Professional Membership:</h4>
+                                <h4><u>Professional Membership</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>1. International Association of Engineers (IAENG) membership number is: 150535 2. ISTE Life Time membership (LM 108951)</h5>
@@ -281,7 +278,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Consultancy Activities:</h4>
+                                <h4><u>Consultancy Activities</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>	NA</h5>
@@ -292,7 +289,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Awards:</h4>
+                                <h4><u>Awards</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>Awarded for valuable contribution and performance in Academic Activities during the academic year 2010-2011 by B.V.M Engineering College, V. V .Nagar</h5>
@@ -303,7 +300,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Grant fetched:</h4>
+                                <h4><u>Grant fetched</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>AICTE- MODROB</h5>
@@ -314,7 +311,7 @@
                             <hr />
                   
                             <div class="col-md-3">
-                                <h4>Additional Information:</h4>
+                                <h4><u>Additional Information</u>:</h4>
                             </div>
                             <div class="col-md-8">
                                <h5>NA</h5>

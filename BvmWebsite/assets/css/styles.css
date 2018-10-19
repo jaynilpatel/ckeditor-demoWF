@@ -2325,11 +2325,14 @@ h1.text-highlight {
     min-width: 250px;
 }
 
-.full_faculty img{
-    display: inline;
-    border: 1px solid #a09b9b;
-    padding:8px;
-}
+    .full_faculty img {
+        display: inline;
+        border: 1px solid #a09b9b;
+        border-radius: 10%;
+        padding: 8px;
+        width: 100%;
+        height: auto;
+    }
 
 .faculty_intro {
     display: inline;
@@ -2344,9 +2347,13 @@ h1.text-highlight {
     text-align: center;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 992px) {
     .full_faculty{
         margin: 10px 50px;
+    }
+    .full_faculty img {
+        width: 50%;
+        height: auto;
     }
 }
 

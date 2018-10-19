@@ -28,12 +28,14 @@
                 width: 100% !important;
                 height: auto !important;
             }
-            .intro span{
-                font-size: 14px;
+
+            .intro span {
+                font-size: 16px;
             }
-            table{
-                width:80% !important;
-                height:auto;
+
+            table {
+                width: 80% !important;
+                height: auto;
             }
         }
     </style>
@@ -102,52 +104,54 @@
             <!--//flexslider-->
 
             <div class="row cols-wrapper">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h1 class="section-heading text-highlight"><span class="line">Information Technology</span></h1>
-
-                    <a href="#">
-                        <div class="list-blue">
-                            Vision & Mission
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-black">
-                            PEO's & PSO's
-                        </div>
-                    </a>
-                    <a href="faculty_info.aspx">
-                        <div class="list-blue">
-                            Faculty
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-black">
-                            Laboratories
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-blue">
-                            Department News
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-black">
-                            Department Events
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-blue">
-                            Study Material
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list-black">
-                            Time Table
-                        </div>
-                    </a>
+                    <ul class="quick-links">
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Vision & Mission</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>PEO's & PSO's</li>
+                            </div>
+                        </a>
+                        <a href="faculty_info.aspx">
+                            <div class="list-blue">
+                                <li>Faculty</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Laboratories</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Department News</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Department Events</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-blue">
+                                <li>Study Material</li>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="list-black">
+                                <li>Time Table</li>
+                            </div>
+                        </a>
+                    </ul>
                     <br />
                 </div>
-                <div class="col-md-9">
+
+                <div class="col-md-8">
 
                     <asp:Label ID="Label1" runat="server" Text="Label" Visible="false"></asp:Label>
                     <asp:Label ID="Label2" runat="server" Text="Label" CssClass="intro"></asp:Label>
